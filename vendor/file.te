@@ -163,9 +163,6 @@ type rild_ctclient_socket, file_type;
 # For icusb
 type proc_icusb, fs_type, proc_type;
 
-# for labeling /mnt/cd-rom as iso9660
-type iso9660, fs_type;
-
 # data_tmpfs_log
 type data_tmpfs_log_file, file_type, data_file_type, core_data_file_type;
 type vendor_tmpfs_log_file, file_type, data_file_type;
